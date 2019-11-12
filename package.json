@@ -1,6 +1,6 @@
 {
   "name": "@remax/rollup-plugin-url",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Inline import files as data-URIs, or copy them to output",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
@@ -49,6 +49,7 @@
   "homepage": "https://github.com/Swatinem/rollup-plugin-url#readme",
   "dependencies": {
     "mime": "^2.4.4",
+    "mkdirp": "^0.5.1",
     "rollup-pluginutils": "^2.8.2",
     "slash2": "^2.0.0"
   },
